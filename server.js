@@ -5,7 +5,7 @@ require('dotenv').config();
 require('./starters/routes')(app);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to my first messanger bot experience project');
+  res.send('Welcome to my first messanger bot project');
 });
 
 const port = process.env.PORT || 3000;
